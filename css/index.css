@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/**ROOTS**/
+:root{
+    --border-color: rgb(234, 162, 234) ;
+    --font-color:rgb(84, 12, 84);
+    --hover-font:rgb(234, 162, 234);  
+    --underline-color:rgb(173, 216, 230);
+}
+/**MEDIA**/
+@media only screen and (max-width:768px){
+    body{
+        width: 768px;
+        padding: auto;
+    }
+    .navbar{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.8rem;
+    }
+}
+
+/**NAVBAR**/
+
+.navbar{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: Hug (116px)px;
+    height: Hug (26px)px;
+    top: 39px;
+    left: 117px;
+    gap: 10px;
+    opacity: 0px;
+    margin-right: 100px;   
+}
+.navlink{
+    align-items:center;
+    display: flex;
+    padding: 5px;
+    font-size: 1rem;
+    height: 20px;
+    width: 60px;
+    justify-content: center;
+    margin-left:5px ;
+    margin-right:5px ;
+}
+.border{
+    border: 2px solid transparent; 
+}
+.border:hover{
+    border: 5px solid var(--border-color);
+}
+.navlink-1{
+    align-items:center;
+    display: flex;
+    padding: 5px;
+    font-size: 1rem;
+    height: 20px;
+    width: 80px;
+    justify-content: center;
+    margin-left:100pxpx;
+}
+
+/**HERO-SECTION**/
+
+.hero{
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+}
+.text{
+    Width:40%;
+}
+.pra{
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60.94px;
+    text-align: left;
+    
+}
+.font{
+    color: var(--hover-font);
+}
+
+.pra-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+.under:hover{
+    border-bottom:3px solid var(--underline-color);
+    width: auto;
+}
+.button{
+    display: flex;
+    width: 110px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+
+
+}
+
+/**PICTURE**/
+
+.pic{
+    width: 1000px;
+}
+.laptop{
+    width: 996px;
+height: 613px;
+top: 187px;
+left: 444px;
+gap: 0px;
+opacity: 0px;
+   
+}
